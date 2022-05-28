@@ -3,6 +3,18 @@
 
 Python code and data used in the manuscript "Machine Learning Identification of Organic Compounds using Visible Light", by Thulasi Bikku, Rubén A. Fritz, Yamil J. Colón and Felipe Herrera.  
 
+
+We have tested a few classifications on the raw dataset without any preprocessing in a previous analysis. The result in the following Table:
+**Method                              Accuracy(%)             Duration to execute (in mins) ** 
+Random Forest                       88.58                     38
+Gradient Boosting                   72.49                     51
+SVC (Support Vector Classifier)     31.73                     76
+Logistic regression                 27.60                     81
+
+As the  Random Forest classifier results  already have  good accuracies, we proceed to focus  our efforts on  this classifier for the rest of the work.
+This Table is added to the SM as Table  S1. And the following added to the draft: **"We also tested other classifiers like Gradient boost, SVC, and logistic regression, but RF performed better, so we focused our effort on working with this method."**
+
+
 In the organic_optical_classifier, we have 5 Jupiter Notebooks, 1 Cross Validation Folder  and 4 excel sheets containing datasets: 
 1. Refractive_index_Website__data_With_and_Without_Binning_RF.ipynb
 2. Featured_Engineering_1.ipynb
