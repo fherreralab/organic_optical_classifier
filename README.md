@@ -6,10 +6,10 @@ Python code and data used in the manuscript "Machine Learning Identification of 
 
 We have tested a few classifications on the raw dataset without any preprocessing in a previous analysis. The result in the following Table:
 **Method                              Accuracy(%)             Duration to execute (in mins) ** 
-Random Forest                       88.58                     38
+**Random Forest                       88.58                     38
 Gradient Boosting                   72.49                     51
 SVC (Support Vector Classifier)     31.73                     76
-Logistic regression                 27.60                     81
+Logistic regression                 27.60                     81**
 
 As the  Random Forest classifier results  already have  good accuracies, we proceed to focus  our efforts on  this classifier for the rest of the work.
 This Table is added to the SM as Table  S1. And the following added to the draft: **"We also tested other classifiers like Gradient boost, SVC, and logistic regression, but RF performed better, so we focused our effort on working with this method."**
