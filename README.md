@@ -2,7 +2,8 @@
 [![DOI](https://zenodo.org/badge/468072725.svg)](https://zenodo.org/badge/latestdoi/468072725)
 
 Python code and data used in the manuscript "Machine Learning Identification of Organic Compounds using Visible Light", by Thulasi Bikku, Rubén A. Fritz, Yamil J. Colón and Felipe Herrera.  
-In the organic_optical_classifier, we have 5 Jupiter Notebooks  and 4 excel sheets containing datasets: 
+
+In the organic_optical_classifier, we have 5 Jupiter Notebooks, 1 Cross Validation Folder  and 4 excel sheets containing datasets: 
 1. Refractive_index_Website__data_With_and_Without_Binning_RF.ipynb
 2. Featured_Engineering_1.ipynb
 3. Featured_Engineering_2.ipynb
