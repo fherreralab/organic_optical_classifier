@@ -181,5 +181,3 @@ https://doi.org/10.48550/arXiv.2204.11832
 [57]	NASA ipac, Near, Mid and Far-Infrared, https://archive.ph/20120529003352/http://www.ipac.caltech.edu/Outreach/Edu/Regions/irregions.html.
 
 [58]	A. Ali, S. M. Shamsuddin, and A. L. Ralescu, Classification with Class Imbalance Problem: A Review, Int. J. Adv. Soft Comput. Its Appl. 7, 176 (2015).
-
-[59]	T. Howley, M. G. Madden, M. L. O’Connell, and A. G. Ryder, The Effect of Principal Component Analysis on Machine Learning Accuracy with High-Dimensional Spectral Data, Knowledge-Based Syst. 19, 363 (2006).
