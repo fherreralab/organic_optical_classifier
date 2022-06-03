@@ -1,7 +1,7 @@
 # organic_optical_classifier
 [![DOI](https://zenodo.org/badge/468072725.svg)](https://zenodo.org/badge/latestdoi/468072725)
 
-Python code and data used in the manuscript "Machine Learning Identification of Organic Compounds using Visible Light", by Thulasi Bikku, Rubén A. Fritz, Yamil J. Colón and Felipe Herrera.  
+Python code and data used in the manuscript "Machine Learning Identification of Organic Compounds using Visible Light", by Thulasi Bikku, Rubén A. Fritz, Yamil J. Colón and Felipe Herrera [1].  
 
 
 We have tested a few classifications on the raw dataset without any preprocessing in a previous analysis. The result in the following Table:
@@ -45,7 +45,7 @@ Later we have divided the dataset into 5 parts based on the wavelength like UV, 
 
 **CROSS VALIDATION:** Cross-validation is a technique for validating the model efficiency by training it on the subset of input data and testing on previously unseen subset of the input data. We can also say that it is a technique to check how a statistical model generalizes to an independent dataset.
 **K-Fold Cross-Validation**
-K-fold cross-validation approach divides the input dataset into K groups of samples of equal sizes. These samples are called folds. For each learning set, the prediction function uses k-1 folds, and the rest of the folds are used for the test set. This approach is a very popular CV approach because it is easy to understand, and the output is less biased than other methods.
+K-fold cross-validation approach divides the input dataset into K groups of samples of equal sizes. These samples are called folds. For each learning set, the prediction function uses k-1 folds, and the rest of the folds are used for the test set. This approach is a very popular CV approach because it is easy to understand, and the output is less biased than other methods [2].
 
 The steps for k-fold cross-validation are:
 
@@ -55,9 +55,16 @@ Take one group as the reserve or test data set.
 Use remaining groups as the training dataset
 Fit the model on the training set and evaluate the performance of the model using the test set.
 **Here we used k=4 and 5**
-https://www.analyticsvidhya.com/blog/2022/02/k-fold-cross-validation-technique-and-its-essentials/
 
 **REFERENCES**
+
+[1] T. Bikku, R. A. Fritz, Y. J. Colón, and F. Herrera, Machine Learning Identification of Organic Compounds Using Visible Light. 
+https://doi.org/10.48550/arXiv.2204.11832 
+
+[2] K-Fold Cross Validation Technique and Its Essentials - Analytics Vidhya, https://www.analyticsvidhya.com/blog/2022/02/k-fold-cross-validation-technique-and-its-essentials/.
+
+
+**REFERENCES OF THE ARTICLE**
 
 [1]	M. Doucet, R. K. Archibald, and W. T. Heller, Machine Learning for Neutron Reflectometry Data Analysis of Two-Layer Thin Films, Mach. Learn. Sci. Technol. 2, 35001 (2021).
 
