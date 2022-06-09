@@ -4,14 +4,7 @@
 Python code and data used in the manuscript "Machine Learning Identification of Organic Compounds using Visible Light", by Thulasi Bikku, Rubén A. Fritz, Yamil J. Colón and Felipe Herrera [1].  
 
 
-We  tested a few classifier models on the raw dataset (RD) without preprocessing, giving the following results:
-
-**Method                              Accuracy(%)             Duration to execute (in mins) ** 
-
-Random Forest                       88.58                     38
-Gradient Boosting                   72.49                     51
-SVC (Support Vector Classifier)     31.73                     76
-Logistic regression                 27.60                     81
+We  tested classifier models on the raw dataset (RD) without preprocessing, giving the following results: Random Forest (88.58% test accuracy), Gradient Boosting (72.49%); Support Vector Classifier (31.73%); Logistic regression (27.60%). 
 
 As the  Random Forest (RF) model gave best accuracies on the raw dataset, we focus the repository on RF training only. The repository contains 5 Jupiter Notebooks, 1 cross validation folder and 4 Excel sheets with raw and pre-processed refractive index and excitinction data: 
 
